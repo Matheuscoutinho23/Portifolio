@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevVerso - Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="stars"></div>
+
+  <header class="hero sticky">
+    <h1>Bem-vindo ao <span>DevVerso</span></h1>
+    <p>Explorando o universo do front-end</p>
+    <nav>
+      <button onclick="goTo('sobre')">Sobre Mim</button>
+      <button onclick="goTo('projetos')">Projetos</button>
+      <button onclick="goTo('skills')">Skills</button>
+      <button onclick="goTo('contato')">Contato</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre" class="planet">
+      <h2>🌍 Sobre Mim</h2>
+      <p>
+        E aí! Eu sou um desenvolvedor front-end em início de jornada, apaixonado por criar interfaces bonitas, funcionais e com aquele toque de capricho.
+        <br><br>
+        Tenho estudado com foco em <strong>HTML, CSS, JavaScript e React</strong>, e venho colocando a mão na massa em projetos próprios pra praticar e evoluir de verdade.
+        <br><br>
+        Busco minha <strong>primeira oportunidade como dev</strong>, mas encaro os desafios com seriedade, curiosidade e muita vontade de aprender com pessoas mais experientes.
+        Gosto de trabalhar em equipe, sou bem organizado e tô sempre buscando o “por quê” das coisas.
+        <br><br>
+        Se você procura alguém com sede de conhecimento, que vai vestir a camisa e crescer junto, bora conversar :)
+      </p>
+    </section>
+     
+   <section id="projetos" class="planet">
+      <h2>🛰️ Projetos</h2>
+      <div class="projetos-container">
+        <div class="card">
+          <h3>Site Responsivo</h3>
+          <p>Projeto com HTML, CSS e JS.</p>
+          <a href="https://matheuscoutinho23.github.io/site-fernando/">Ver Projeto</a>
+        </div>
+        <div class="card">
+          <h3>Jogo Detona Ralph</h3>
+          <p>Jogo com HTML,CSS E JS.</p>
+          <a href="https://matheuscoutinho23.github.io/Primeiro-jogo-detona-ralph/">Ver Projeto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="planet">
+      <h2>🌌 Skills</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Git</span>
+      </div>
+    </section>
+
+    <section id="contato" class="planet">
+      <h2>📡 Contato</h2>
+      <a href="https://www.linkedin.com/in/matheus-dantas-932ba7174/" target="_blank" class="linkedin-btn">
+        <i class="fab fa-linkedin"></i> Meu LinkedIn
+      </a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
